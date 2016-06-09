@@ -9,8 +9,8 @@
 
 # Global Config
 [user]
-    #name = "**Your Name**"
-    #email = "**Your Email**"
+    name = "rododo"
+    email = "lzn960520@126.com"
     #signingkey = **Your GPG ID**
 
 [branch "master"]
@@ -51,6 +51,7 @@
 [core]
     pager = less -FRSX
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    editor = vim
 
 [diff]
     tool = vimdiff
@@ -141,7 +142,7 @@
     rem = remote rename
 
 [push]
-    default = matching
+    default = simple
 
 [url "git@github.com:"]
     insteadof = github:
