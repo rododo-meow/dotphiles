@@ -29,18 +29,24 @@ Host *
     #ControlPersist 8h
 
 Host dorm
-	Port 22
-	HostName 59.78.22.23
+    Port 22
+    HostName 59.78.22.23
     User rododo
-	
+
 Host lab
-	Port 22
-	HostName rododo-ubuntu
+    Port 22
+    HostName rododo-ubuntu
     User rododo
-	ProxyCommand ssh vyatta@202.120.40.82 exec nc %h %p 2>/dev/null
+    ProxyCommand ssh vyatta@202.120.40.82 exec nc %h %p 2>/dev/null
 
 Host ll-lab
-	Port 22
-	HostName ll-pc
+    Port 22
+    HostName ll-pc
     User ll
-	ProxyCommand ssh vyatta@202.120.40.82 exec nc %h %p 2>/dev/null
+    ProxyCommand ssh vyatta@202.120.40.82 exec nc %h %p 2>/dev/null
+
+Host tk
+    Port 22
+    User rododo
+    HostName rododo-ubuntu
+    ProxyCommand ssh external@116.236.218.246 -p 222 exec nc %h %p 2>/dev/null
