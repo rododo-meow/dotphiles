@@ -7,6 +7,7 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+source /usr/local/share/gtags/gtags.vim
 " Call dotvim
 source ~/.vim/dotvim.vim
 
