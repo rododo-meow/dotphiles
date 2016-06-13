@@ -48,5 +48,10 @@ Host ll-lab
 Host tk
     Port 22
     User rododo
-    HostName rododo-ubuntu
+    HostName rododo-tk
     ProxyCommand ssh external@116.236.218.246 -p 222 exec nc %h %p 2>/dev/null
+
+Host tk-vyos
+    Port 222
+    User vyos
+    HostName 116.236.218.246
