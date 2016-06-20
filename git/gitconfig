@@ -13,10 +13,6 @@
     email = "lzn960520@126.com"
     #signingkey = **Your GPG ID**
 
-[branch "master"]
-    remote = origin
-    merge = refs/heads/master
-
 [color]
     branch = always
     diff = always
