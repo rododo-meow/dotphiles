@@ -60,7 +60,7 @@ nnoremap <F5> <leader>r
 
 " YouCompleteMe
 imap <C-_> <C-Space>
-let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python': 1, 'asm': 1, 'sh': 1 }
+let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python': 1, 'asm': 1, 'sh': 1, 'zsh': 1 }
 
 " airline
 set laststatus=2
