@@ -27,6 +27,13 @@ if [[ -f $DIR/packages/apt ]]; then
       packages="$packages $line"
     fi
   done
-  sudo apt-get install $packages
+  yes | sudo apt-get install $packages
 fi
 
+packages=""
+if [[ -d $DIR/debs ]]; then
+  for i in $(ls $DIR/debs/*.deb); do
+    packages="$packages $i"
+  done
+  sudo dpkg -i $packages
+fi
