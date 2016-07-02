@@ -83,6 +83,7 @@ vim/gvimrc
 LZN-E530 git=ANY
 rododo-e530 git=ANY
 rododo-tk git=ANY
+rododo-ubuntu git=ANY
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
 #host3.example.com               git=ANY                                                #git repo, pull from anywhere
