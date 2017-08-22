@@ -53,5 +53,5 @@ Host tk
 
 Host tk-vyos
     Port 222
-    User vyos
+    User trustkernel
     HostName 116.236.218.246
