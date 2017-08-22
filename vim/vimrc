@@ -119,3 +119,6 @@ let g:mkdp_auto_close = 1
 
 " dotvim
 let g:dotvim_colorscheme = "molokai"
+
+" localvimrc
+let g:localvimrc_ask = 0
